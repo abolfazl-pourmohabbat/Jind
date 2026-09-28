@@ -71,7 +71,7 @@ export const jobHTML = (main) => {
     case "jobItem":
       const detail = `
         
-<img src="${state.detailsActiveItem.coverImgURL}" alt="#" class="job-details__cover-img">
+<img src="/img/cover-img.webp" alt="#" class="job-details__cover-img">
 
 <a class="apply-btn" href="${state.detailsActiveItem.companyURL}" target="_blank">Apply <i class="fa-solid fa-square-arrow-up-right apply-btn__icon"></i></a>
 
